@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="دعوة زفاف عمر ونور"
+  >
+
+  <meta name="theme-color" content="#1d251f">
+
+  <title>دعوة زفاف</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+
+<body>
+
+  <!-- =====================================================
+       PALACE OPENING
+  ====================================================== -->
+
+  <section
+    class="palace-opening"
+    id="palaceOpening"
+    aria-labelledby="openingTitle"
+  >
+
+    <div
+      class="opening-background"
+      aria-hidden="true"
+    ></div>
+
+    <div
+      class="opening-vignette"
+      aria-hidden="true"
+    ></div>
+
+
+    <!-- architectural frame -->
+
+    <div
+      class="palace-frame"
+      aria-hidden="true"
+    >
+
+      <div class="palace-column palace-column-right"></div>
+
+      <div class="palace-column palace-column-left"></div>
+
+      <div class="palace-arch"></div>
+
+    </div>
+
+
+    <!-- light behind doors -->
+
+    <div
+      class="door-light"
+      aria-hidden="true"
+    ></div>
+
+
+    <!-- doors -->
+
+    <div
+      class="palace-doors"
+      aria-hidden="true"
+    >
+
+      <div class="palace-door door-right">
+
+        <div class="door-panel"></div>
+
+        <span class="door-handle"></span>
+
+      </div>
+
+
+      <div class="palace-door door-left">
+
+        <div class="door-panel"></div>
+
+        <span class="door-handle"></span>
+
+      </div>
+
+    </div>
+
+
+    <!-- initial content -->
+
+    <div class="opening-content">
+
+      <span class="opening-kicker">
+        دعوة زفاف
+      </span>
+
+      <h1 id="openingTitle">
+        قصر النور
+      </h1>
+
+      <p class="opening-host">
+        بدعوة من
+        <strong id="openingFather">
+          السيد رائد محمود
+        </strong>
+      </p>
+
+      <button
+        class="open-palace-button"
+        id="openPalaceButton"
+        type="button"
+        aria-label="فتح بوابة الدعوة"
+      >
+
+        <span>
+          دخول الدعوة
+        </span>
+
+        <i aria-hidden="true"></i>
+
+      </button>
+
+    </div>
+
+
+    <!-- names revealed after doors -->
+
+    <div
+      class="opening-reveal"
+      aria-hidden="true"
+    >
+
+      <span class="opening-reveal-small">
+        حفل زفاف
+      </span>
+
+      <strong id="openingCouple">
+        عمر × نور
+      </strong>
+
+      <small id="openingDate">
+        14 OCT 2027
+      </small>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================================
+       MAIN
+  ====================================================== -->
+
+  <main
+    class="site-shell"
+    id="invitationMain"
+    tabindex="-1"
+  >
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section
+      class="hero"
+      aria-labelledby="coupleNames"
+    >
+
+      <div
+        class="hero-background"
+        aria-hidden="true"
+      ></div>
+
+      <div
+        class="hero-overlay"
+        aria-hidden="true"
+      ></div>
+
+      <div
+        class="hero-architecture"
+        aria-hidden="true"
+      >
+
+        <span></span>
+
+      </div>
+
+
+      <div class="hero-content">
+
+
+        <div class="palace-mark reveal">
+
+          <span></span>
+
+          <i></i>
+
+          <span></span>
+
+        </div>
+
+
+        <p class="hero-overline reveal">
+          PALACE OF LIGHT
+        </p>
+
+
+        <div class="father-plaque reveal">
+
+          <small>
+            بدعوة كريمة من
+          </small>
+
+          <strong id="fatherName">
+            السيد رائد محمود
+          </strong>
+
+        </div>
+
+
+        <p
+          class="invitation-intro reveal"
+          id="invitationIntro"
+        >
+          نتشرف بحضوركم ومشاركتكم فرحة زفاف ابنه
+        </p>
+
+
+        <h1
+          class="couple-names reveal"
+          id="coupleNames"
+        >
+
+          <span id="groomName">
+            عمر
+          </span>
+
+          <i aria-hidden="true"></i>
+
+          <small>
+            على الآنسة
+          </small>
+
+          <span id="brideName">
+            نور
+          </span>
+
+        </h1>
+
+
+        <p
+          class="hero-message reveal"
+          id="heroMessage"
+        >
+          في ليلة نرجو أن تبقى من أجمل ليالي العمر
+        </p>
+
+
+        <div
+          class="hero-plaque reveal"
+          aria-label="موعد الزفاف"
+        >
+
+          <span
+            class="plaque-day"
+            id="heroDay"
+          >
+            14
+          </span>
+
+
+          <span class="plaque-meta">
+
+            <strong id="heroMonth">
+              OCTOBER
+            </strong>
+
+            <small id="heroYear">
+              2027
+            </small>
+
+          </span>
+
+
+          <span class="plaque-divider"></span>
+
+
+          <span
+            class="plaque-time"
+            id="heroTime"
+          >
+            6:30 PM
+          </span>
+
+        </div>
+
+
+        <div
+          class="hero-scroll"
+          aria-hidden="true"
+        >
+          <span></span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         INVITATION
+    ====================================================== -->
+
+    <section
+      class="section invitation-section"
+      aria-labelledby="invitationTitle"
+    >
+
+      <div class="section-inner">
+
+        <span class="section-code reveal">
+          I
+        </span>
+
+        <span class="section-kicker reveal">
+          THE INVITATION
+        </span>
+
+        <h2
+          class="section-title reveal"
+          id="invitationTitle"
+        >
+          ليلة يكتمل نورها بحضوركم
+        </h2>
+
+
+        <p
+          class="invitation-text reveal"
+          id="invitationText"
+        >
+          بدعوة كريمة من السيد رائد محمود
+          نتشرف بحضوركم ومشاركتكم فرحة زفاف ابنه
+          عمر على الآنسة نور
+          في ليلة نرجو أن تبقى من أجمل ليالي العمر
+        </p>
+
+
+        <div class="father-signature reveal">
+
+          <span>
+            صاحب الدعوة
+          </span>
+
+          <strong id="fatherSignature">
+            رائد محمود
+          </strong>
+
+          <small>
+            والد العريس
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         COUNTDOWN
+    ====================================================== -->
+
+    <section
+      class="section countdown-section"
+      aria-labelledby="countdownTitle"
+    >
+
+      <div class="section-inner">
+
+        <span class="section-code reveal">
+          II
+        </span>
+
+        <span class="section-kicker reveal">
+          THE WAIT
+        </span>
+
+        <h2
+          class="section-title reveal"
+          id="countdownTitle"
+        >
+          حتى تفتح أبواب الفرح
+        </h2>
+
+
+        <div
+          class="countdown reveal"
+          aria-live="polite"
+        >
+
+
+          <div class="countdown-arch">
+
+            <div class="countdown-arch-inner">
+
+              <strong id="days">
+                00
+              </strong>
+
+              <span>
+                يوم
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="countdown-arch">
+
+            <div class="countdown-arch-inner">
+
+              <strong id="hours">
+                00
+              </strong>
+
+              <span>
+                ساعة
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="countdown-arch">
+
+            <div class="countdown-arch-inner">
+
+              <strong id="minutes">
+                00
+              </strong>
+
+              <span>
+                دقيقة
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="countdown-arch">
+
+            <div class="countdown-arch-inner">
+
+              <strong id="seconds">
+                00
+              </strong>
+
+              <span>
+                ثانية
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <p
+          class="countdown-status"
+          id="countdownStatus"
+        ></p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         DATE
+    ====================================================== -->
+
+    <section
+      class="section ceremony-section"
+      aria-labelledby="ceremonyTitle"
+    >
+
+      <div class="section-inner">
+
+        <span class="section-code reveal">
+          III
+        </span>
+
+        <span class="section-kicker reveal">
+          THE CEREMONY
+        </span>
+
+        <h2
+          class="section-title reveal"
+          id="ceremonyTitle"
+        >
+          موعد الليلة
+        </h2>
+
+
+        <div class="ceremony-layout">
+
+
+          <div class="large-date reveal">
+
+            <span
+              class="large-date-number"
+              id="dateNumber"
+            >
+              14
+            </span>
+
+            <div>
+
+              <strong id="dateMonth">
+                OCT
+              </strong>
+
+              <small id="dateYear">
+                2027
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="ceremony-information">
+
+
+            <div class="ceremony-row reveal">
+
+              <span class="ceremony-label">
+                اليوم
+              </span>
+
+              <strong id="eventWeekday">
+                الخميس
+              </strong>
+
+            </div>
+
+
+            <div class="ceremony-row reveal">
+
+              <span class="ceremony-label">
+                التاريخ
+              </span>
+
+              <strong id="eventDate">
+                14 أكتوبر 2027
+              </strong>
+
+            </div>
+
+
+            <div class="ceremony-row reveal">
+
+              <span class="ceremony-label">
+                الوقت
+              </span>
+
+              <strong id="eventTime">
+                6:30 مساءً
+              </strong>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         VENUE
+    ====================================================== -->
+
+    <section
+      class="section venue-section"
+      aria-labelledby="venueTitle"
+    >
+
+      <div
+        class="venue-background"
+        aria-hidden="true"
+      ></div>
+
+      <div
+        class="venue-overlay"
+        aria-hidden="true"
+      ></div>
+
+
+      <div class="section-inner venue-content">
+
+        <span class="section-code reveal">
+          IV
+        </span>
+
+        <span class="section-kicker reveal">
+          THE PALACE
+        </span>
+
+        <h2
+          class="section-title reveal"
+          id="venueTitle"
+        >
+          وجهة الليلة
+        </h2>
+
+
+        <div class="venue-plaque reveal">
+
+          <span>
+            DESTINATION
+          </span>
+
+          <strong id="venueName">
+            قصر دجلة الملكي
+          </strong>
+
+          <small id="venueAddress">
+            بغداد
+          </small>
+
+        </div>
+
+
+        <a
+          href="#"
+          class="map-button reveal"
+          id="mapsButton"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="فتح موقع القاعة على Google Maps"
+        >
+
+          <span>
+            الاتجاه إلى القصر
+          </span>
+
+          <span
+            class="map-arrow"
+            aria-hidden="true"
+          >
+            ↗
+          </span>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ACTIONS
+    ====================================================== -->
+
+    <section
+      class="section actions-section"
+      aria-labelledby="actionsTitle"
+    >
+
+      <div class="section-inner">
+
+        <span class="section-code reveal">
+          V
+        </span>
+
+        <span class="section-kicker reveal">
+          SAVE THE DATE
+        </span>
+
+        <h2
+          class="section-title reveal"
+          id="actionsTitle"
+        >
+          احتفظوا بموعدنا
+        </h2>
+
+
+        <div class="actions-grid reveal">
+
+
+          <button
+            class="action-button"
+            id="calendarButton"
+            type="button"
+          >
+
+            <span class="action-number">
+              01
+            </span>
+
+            <span class="action-text">
+              إضافة إلى التقويم
+            </span>
+
+            <span
+              class="action-symbol"
+              aria-hidden="true"
+            >
+              +
+            </span>
+
+          </button>
+
+
+          <button
+            class="action-button"
+            id="shareButton"
+            type="button"
+          >
+
+            <span class="action-number">
+              02
+            </span>
+
+            <span class="action-text">
+              مشاركة الدعوة
+            </span>
+
+            <span
+              class="action-symbol"
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+
+          </button>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CLOSING
+    ====================================================== -->
+
+    <section class="closing-section">
+
+      <div class="closing-light" aria-hidden="true"></div>
+
+
+      <div class="closing-content">
+
+        <div
+          class="closing-arch reveal"
+          aria-hidden="true"
+        ></div>
+
+
+        <span class="closing-kicker reveal">
+          PALACE OF LIGHT
+        </span>
+
+
+        <p class="closing-copy reveal">
+          بحضوركم يزداد المكان نوراً
+          والفرح اكتمالاً
+        </p>
+
+
+        <h2
+          class="closing-names reveal"
+          id="closingNames"
+        >
+          عمر × نور
+        </h2>
+
+
+        <div
+          class="closing-date reveal"
+          id="closingDate"
+        >
+          14 · OCT · 2027
+        </div>
+
+
+        <small class="closing-host reveal">
+
+          بدعوة من
+
+          <strong id="closingFather">
+            السيد رائد محمود
+          </strong>
+
+        </small>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+      <span>
+        PALACE OF LIGHT
+      </span>
+
+      <span id="footerNames">
+        OMAR × NOOR
+      </span>
+
+    </footer>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       TOAST
+  ====================================================== -->
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+  ></div>
+
+</body>
+</html>
